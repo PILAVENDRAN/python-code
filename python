@@ -1,0 +1,61 @@
+print ("Hellow World")
+#variable number to store
+A=35
+B=45
+c=(A+B)
+print(c)
+print(type(c))
+# int,float,string
+a=45
+b=25.2
+c="45"
+print(type(a))
+print(type(b))
+print(type(c))
+##input statement
+A=input("Enter the value A:")
+B=input("Enter the value B:")
+c=A+B
+print(c)
+
+## int(input)
+
+A=int(input("Enter the value A:"))
+B=int(input("Enter the value B:"))
+c=A+B
+print(c)
+print(type(c))
+
+# split function
+name1,name2,name3=input("Enter the 3 names : ").split(',')
+print("name 1:",name1)
+print("name 2:",name2)
+print("name 3:",name3)
+
+#string and string function
+a="pilavendran"
+print(a)
+print(type(a))
+print(a.upper())
+print(a.lower())
+print(a.capitalize())
+print(a.count("a"))
+print(a.endswith("a"))
+print(a.find("n",3))
+print(a.replace("a","d"))
+
+#boolean function
+a="pilavendran"
+print(a.isupper())
+print(a.islower())
+
+# split lines
+s="he\is\good"
+print(s)
+s="he\nis\ngood"
+print(s)
+print(s.splitlines())
+a=" he is good boy in school"
+print(a.split(" "))
+a=" he,is,good,boy,in,school"
+print(a.split(","))
